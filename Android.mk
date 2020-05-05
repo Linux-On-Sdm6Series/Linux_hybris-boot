@@ -72,7 +72,7 @@ $(warning ********************* /boot appears to live on $(HYBRIS_BOOT_PART))
 $(warning ********************* /data appears to live on $(HYBRIS_DATA_PART))
 
 ifneq ($(words $(HYBRIS_DATA_PART)),1)
-$(error There should be a one and only one device entry for HYBRIS_DATA_PART)
+#$(error There should be a one and only one device entry for HYBRIS_DATA_PART)
 endif
 
 # Command used to make the image
